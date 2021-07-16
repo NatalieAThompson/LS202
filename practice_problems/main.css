@@ -1,0 +1,39 @@
+h1 {
+  font-family: Georgia;
+  color: blue;
+}
+
+p {
+  font-size: 15px;
+  font-family: Helvetica, Arial;
+}
+
+code {
+  text-decoration: underline;
+  font-style: italic;
+  font-family: monospace;
+  color: green;
+}
+
+mark {
+  font-size: 12px;
+  /* background-color: yellow; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+strong {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+em {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+

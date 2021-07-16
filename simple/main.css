@@ -1,0 +1,27 @@
+body {
+  margin-left: 25px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+h2.midday {
+  color: blue;
+}
+
+.night {
+  color: purple;
+}
+
+.morning {
+  font-weight: bold;
+}
+
+p.midday {
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
