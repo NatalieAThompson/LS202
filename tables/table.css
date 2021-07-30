@@ -1,0 +1,7 @@
+thead {
+  background-color: green;
+}
+
+tbody th:first-child {
+  background-color: blue;
+}
