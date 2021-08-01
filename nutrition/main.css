@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 36px;
+}
+
+body {
+  width: 684px;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  border: 5px black solid;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  margin: 25px;
+}
+
+strong {
+  font-size: 1.06rem;
+}
+
+h1 {
+  font-size: 95px;
+}
+
+h4, th {
+  font-size: .8rem;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid black;
+}
+
+th {
+  padding: 10px 0;
+}
+
+header {
+  border-bottom: 35px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* tr {
+  width: 100%;
+} */
+
+/* Main area styling */
+
+td{
+  width: 342px;
+  white-space: nowrap;
+  padding: 6px 0;
+}
+
+main table:nth-child(2) {
+  border-bottom: 15px solid black;
+}
+
+table:nth-child(3) {
+  border-bottom: 35px solid black;
+}
+
+main tr td, main th {
+  border-bottom: 1px solid black;
+}
+
+footer thead tr:first-child {
+  border-bottom: 1px solid black;
+}
+
+footer td {
+  width: 171px;
+  padding: 0;
+}
+
+td:last-child, th {
+  text-align: right;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+.sub-topic {
+  display: inline-block;
+  margin-left: 45px;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+footer ul {
+  font-size: .75rem;
+  padding: 10px 0;
+  margin-left: .5rem;
+  list-style-type: "* ";
+}
+
+main td.sub-topic {
+  width:155%;
+}
+
+main td.sub-topic + td {
+  border-bottom: 0;
+}
+
+footer thead td {
+  padding-bottom: 2px;
+}
+
+footer tbody tr:first-child td {
+  padding-top: 8px;
+}
+
+footer tr td:last-child {
+  text-align: left;
+}
+
+footer tr td:first-child {
+  padding-right: 35px;
+}
