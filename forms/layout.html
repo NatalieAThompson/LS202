@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Layouts</title>
+  <style>
+    body {
+      font: normal 14px Helvetica, Arial, sans-serif;
+    }
+
+    label {
+      display: inline-block;
+      width: 90px;
+      padding-bottom: 10px;
+      vertical-align: middle;
+    }
+
+    input[type="text"] {
+      height: 40px;
+      padding: 0 8px;
+      font: normal 14px Helvetica, Arial, sans-serif;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      /* width: 100%; */
+      box-sizing: border-box;
+    }
+
+    dl {
+      padding-bottom: 20px;
+    }
+
+    dt {
+      padding-bottom: 10px;
+      vertical-align: middle;
+      box-sizing: border-box;
+    }
+
+    dd {
+      padding-bottom: 20px;
+      margin: 0;
+    }
+
+    input[type="text"] + input[type="text"] {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <form action="" method="post">
+    <dl>
+      <dt><label for="name">Your Name</label></dt>
+      <dd><input type="text" name="name" id="name"></dd>
+    </dl>
+    <dl>
+      <dt><label for="address">Address</label></dt>
+      <dd><input type="text" name="address" id="address"></dd>
+      <dd><input type="text" name="address2"></dd>
+    </dl>
+  </form>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice with Forms</title>
+</head>
+<body>
+    <form action="#" method="post">
+      <fieldset>
+        <dl>
+          <dt>
+            <label for="first_name">First Name:</label>
+          </dt>
+          <dd>
+            <input type="text" id="first_name" name="First Name" required>
+          </dd>
+          <dt>
+            <label for="last_name">Last Name:</label>
+          </dt>
+          <dd>
+            <input type="text" id="last_name" name="Last Name" required>
+          </dd>
+          <dt>
+            <label for="email">Email:</label>
+          </dt>
+          <dd>
+            <input type="email" id="email" name="Email"
+            autocomplete="off"
+            autocapitalize="none" required>
+          </dd>
+          <dt>
+            <label for="phone">Phone Number:</label>
+          </dt>
+          <dd>
+            <input type="tel" id="phone" placeholder="###-###-####"
+            name="Phone Number" required>
+          </dd>
+          <dt>
+            <label for="type">Phone Type</label>
+          </dt>
+          <dd>
+            <select name="device" id="type">
+              <option value="home">home</option>
+              <option value="business">business</option>
+              <option value="mobile">mobile</option>
+            </select>
+          </dd>
+          <dt>
+            <label for="message">Message:</label>
+          </dt>
+          <dd>
+            <textarea id="message" name="message"
+            rows="6" cols="80"
+            placeholder="Type message here"></textarea>
+          </dd>
+        </dl>
+        <input type="submit" value="Send">
+      </fieldset>
+    </form>
+
+    <form action="#" method="get">
+      <fieldset>
+        <label for="search">Search for</label>
+        <input type="text" name="search" id="search">
+        <input type="radio" id="tv" name="media" checked>
+        <label for="tv">TV</label>
+        <input type="radio" id="movie" name="media">
+        <label for="movie">Movies</label>
+        <input type="radio" id="music" name="media">
+        <label for="music">Music</label>
+        <input type="submit" value="Send">
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <label for="fav">Movie</label>
+        <select name="move" id="fav" size="4">
+          <option value="looper">Looper</option>
+          <option value="frozen">Frozen</option>
+          <option value="tommy_boy">Tommy Boy</option>
+          <option value="alien" selected>Alien</option>
+        </select>
+        <label for="rating">Rating</label>
+        <input type="number" name="rating" id="rating" min="1" max="5">
+        <input type="checkbox" id="collect">
+        <label for="collect">Add to my favorites</label>
+        <input type="submit" value="Rate Movie">
+      </fieldset>
+    </form>
+</body>
+</html>
