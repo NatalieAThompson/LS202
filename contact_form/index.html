@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Form</title>
+  <style>
+    dd {
+      width: 200px;
+      height: 20px;
+      margin: 10px 0;
+    }
+
+    fieldset {
+      border: 0;
+      margin: auto 25vw;
+    }
+
+    [type="text"], [type="email"], [type="number"] {
+      width: 98%;
+    }
+
+    body {
+      font: normal 16px Helvetica, Arial, sans-serif;
+    }
+
+    .hugging {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: .85rem;
+    }
+
+    [type="radio"]:first-child,
+    [type="checkbox"]:first-child {
+      margin-top: 10px;
+    }
+
+    .space_above {
+      margin-top: 15px;
+    }
+
+    textarea {
+      height: auto;
+      resize: vertical;
+      display: block;
+    }
+
+    dl {
+      display: inline-block;
+      width: 49%;
+      box-sizing: border-box;
+    }
+
+    .full_line {
+      width: 100%;
+    }
+
+    dd {
+      width: 100%;
+    }
+
+    .zip {
+      width: 40%;
+      margin-left: -10px;
+    }
+
+    .dropdown_space {
+      width: 10%;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <dl>
+        <dt><label for="first_name">First Name:</label></dt>
+        <dd><input type="text" id="first_name" name="first_name"></dd>
+      </dl>
+      <dl>
+        <dt><label for="last_name">Last Name:</label></dt>
+        <dd><input type="text" id="last_name" name="last_name"></dd>
+      </dl>
+      <dl class="full_line">
+        <dt><label for="email">Email Address:</label></dt>
+        <dd><input type="email" id="email" name="email"></dd>
+      </dl>
+      <dl>
+        <dt><label for="city">City</label></dt>
+        <dd><input type="text" id="city" name="city"></dd>
+      </dl>
+      <dl class="dropdown_space">
+        <dt><label for="state">State</label></dt>
+          <dd>
+            <select id="state" name="state">
+              <option>AK</option>
+              <option>AL</option>
+              <option>AR</option>
+              <option>AZ</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DC</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>IA</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>MA</option>
+              <option>MD</option>
+              <option>ME</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>NE</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NV</option>
+              <option>NY</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>PA</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VA</option>
+              <option>VT</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WV</option>
+              <option>WY</option>
+            </select>
+          </dd>
+        </dl>
+        <dl class="zip">
+          <dt><label for="zip">Zip Code</label></dt>
+          <dd><input placeholder="#####" type="number" min="10000" max="99999" id="zip" name="zip"></dd>
+        </dl>
+
+        <dt>Which of these colors do you like best?</dt>
+        <dd class="hugging"><input name="color" type="radio" checked> Red</dd>
+        <dd class="hugging"><input name="color" type="radio"> Blue</dd>
+        <dd class="hugging"><input name="color" type="radio"> Yellow</dd>
+        <dd class="hugging"><input name="color" type="radio"> Purple</dd>
+        <dd class="hugging"><input name="color" type="radio"> Green</dd>
+
+        <dt class="space_above">Which web technologies do you want to learn?</dt>
+        <dd class="hugging"><input type="checkbox"> HTML</dd>
+        <dd class="hugging"><input type="checkbox"> CSS</dd>
+        <dd class="hugging"><input type="checkbox"> Ruby</dd>
+        <dd class="hugging"><input type="checkbox"> JavaScript</dd>
+        <dd class="hugging"><input type="checkbox"> Rails</dd>
+      </dl>
+      <p class="space_above">Comments</p>
+      <textarea id="message" rows="6" cols="80"></textarea>
+      <input type="date" value="2021-09-08" hidden>
+      <input type="submit" value="Send">
+      <input type="reset">
+    </fieldset>
+
+  </form>
+</body>
+</html>
