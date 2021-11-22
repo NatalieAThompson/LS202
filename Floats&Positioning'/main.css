@@ -1,0 +1,268 @@
+section {
+  width: 1000px;
+  margin: auto;
+  border: 2px grey solid;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: sans-serif;
+  padding-bottom: 35px;
+}
+
+h1, h2, h3 {
+  color: #ce4a4a;
+  font-size: blod;
+  margin-top: 35px;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, li, a {
+  font-size: .9rem;
+  color: #545459;
+  line-height: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  margin-top: 50px;
+  border: 2px grey dashed;
+  width: 60%;
+  left: 5%;
+  position: relative;
+  padding: 10px;
+}
+
+.nav li {
+  position: relative;
+  display: inline;
+}
+
+.bot-space {
+  margin-bottom: 50px;
+}
+
+.bot-space li {
+  position: relative;
+  display: inline;
+  margin-right: 3rem;
+}
+
+.bot-space .green li {
+  background-color: green;
+  color: white;
+  padding: 1.5rem;
+  margin: 0;
+}
+
+.bot-space .space li {
+  border: 2px solid darkgreen;
+  margin-right: 30px;
+}
+
+.inner-space {
+  padding: 3rem 1rem;
+}
+
+div {
+  color: white;
+  box-sizing: border-box;
+}
+
+.blue {
+  background-color: dodgerblue;
+}
+
+div.green {
+  background-color: green;
+  height: 60px;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+div.red {
+  background-color: coral;
+  width: 90px;
+}
+
+div.pink {
+  background-color: pink;
+  width: 180px;
+  height: 120px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box1, .box2 {
+  border: 1px solid red;
+  display: inline;
+}
+
+.box1 {
+  background-color: dodgerblue;
+  float: left;
+}
+
+.box2 {
+  background-color: coral;
+  float: right;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.leftbox, .rightbox {
+  padding: 20px;
+  text-align: center;
+}
+
+.leftbox {
+  background-color: coral;
+  float: left;
+  width: 40%;
+}
+
+.rightbox {
+  background-color: dodgerblue;
+  float: right;
+  width: 50%
+}
+
+.verticalnav li a {
+  display: block;
+  color: white;
+  background-color: dodgerblue;
+  text-align: center;
+}
+
+.verticalnav li {
+  margin: 10px;
+}
+
+.inline li {
+  display: inline;
+  background-color: dodgerblue;
+  color: white;
+  padding: 20px 50px;
+  margin: 10px;
+}
+
+.inline {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 50px auto;
+  width: 90%;
+}
+
+.inline ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+hr {
+  border: 2px dashed grey;
+}
+
+.center {
+  text-align: center;
+}
+
+.RedBox {
+  background-color: coral;
+  float: left;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+.BlueBox {
+  background-color: dodgerblue;
+  float: right;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+.GreenBox {
+  background-color: green;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
+
+.codeblock {
+  width: 200px;
+  display: block;
+  position: relative;
+  left: 10%;
+  color: #545459;
+  font-size: 1rem;
+}
+
+.decorated {
+  list-style: disc;
+}
+
+.relativebox {
+  background-color: coral;
+  position: relative;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  width: 35%;
+  bottom: -30px;
+  left: -80px;
+  z-index: 2;
+}
+
+.on-top {
+  position: relative;
+  z-index: 2;
+}
+
+.container2 {
+  position: relative;
+}
+
+.absolutebox {
+  background-color: green;
+  position: absolute;
+  border-radius: 10px;
+  padding: 30px;
+  left: 250px;
+  bottom: -15px;
+  width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.fixedbox {
+  background-color: dodgerblue;
+  padding: 30px 10px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  z-index: 1;
+}

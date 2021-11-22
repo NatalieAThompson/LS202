@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+section {
+  /* width: 750px; */
+  max-width: 1000px;
+  margin: auto;
+  background-color: blue;
+  overflow: hidden;
+
+}
+
+article, aside, footer {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+article {
+  width: 70%;
+  float: left;
+  /* height: 100vh; */
+  background-color: yellow;
+}
+
+aside {
+  /* width: 250px; */
+  float: none;
+  overflow:hidden;
+  /* height: 100vh; */
+  background-color: green;
+}
+
+footer {
+  float: left;
+  background-color: wheat;
+  clear: both;
+}
